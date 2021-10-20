@@ -1,12 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap";
+
+:root {
+    --color-green:#50fa7b;
+    --color-greenHover:#259742;
+    --color-white: white;
+    --color-purple: #282a36;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 body {
-    background: #282a36;
+    background: var(--color-purple);
     font-family: 'Source Sans Pro', sans-serif;
-
+    color: var(--color-white);
 }
 
 header {
@@ -19,13 +28,54 @@ header div {
     text-align: center;
 }
 header div a {
-    color: white;
+    color: var(--color-white);
     font-size: 18px;
     line-height: 28px;
     margin: 0px 16px;
     text-decoration: none;
 }
 header div a:hover {
-    color: #50fa7b;
+    color: var(--color-green);
     transition: color 200ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+#wrapper p a {
+    color: var(--color-green);
+    text-decoration: none;
+}
+#wrapper p a:hover {
+    color: var(--color-greenHover);
+    transition: 200ms;
 }
