@@ -5,6 +5,7 @@
     --color-greenHover:#259742;
     --color-white: white;
     --color-purple: #282a36;
+    --color-cardpurple: #7159c1;
 }
 
 * {
@@ -82,4 +83,40 @@ header {
 #wrapper p a:hover {
     color: var(--color-greenHover);
     transition: 200ms;
+}
+
+
+/*===CARDS ===*/
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: var(--color-cardpurple);
+}
+
+.card_image-container img{
+    width: 100%;
+}
+
+.card_content, .card_info {
+    padding: 24px;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card_price {
+    text-align: center;
+    background-color: var(--color-cardpurple);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
 }
