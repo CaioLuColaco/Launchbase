@@ -1,0 +1,27 @@
+{
+  "name": "Launchbase",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioLuColaco/Launchbase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioLuColaco/Launchbase/issues"
+  },
+  "homepage": "https://github.com/CaioLuColaco/Launchbase#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
