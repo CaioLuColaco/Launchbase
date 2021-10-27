@@ -1,5 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
+const videos = require("./data")
 
 const server = express()
 
