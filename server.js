@@ -17,7 +17,7 @@ server.get("/", function(req, res) {
 })
 
 server.get("/portfolio", function(req, res) {
-    return res.render("portfolio")
+    return res.render("portfolio", {items: videos})
 })
 
 server.use(function(req, res){
