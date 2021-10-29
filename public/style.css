@@ -6,6 +6,7 @@
     --color-white: white;
     --color-purple: #282a36;
     --color-cardpurple: #7159c1;
+    --color-featured: #f7d05f;
 }
 
 * {
@@ -165,4 +166,21 @@ iframe {
     height: 90%;
     position: absolute;
     top: 6%;
+}
+
+/* === FEATURED ===*/
+
+.card_image-container {
+    position: relative;
+}
+
+.featured {
+    position: absolute;
+    background: var(--color-featured);
+    color: #111;
+    font-weight: bold;
+    padding: 2px 8px;
+    right: 5px;
+    border-radius: 16px;
+    top: -10px;
 }
