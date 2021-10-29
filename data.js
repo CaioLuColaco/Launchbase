@@ -9,7 +9,8 @@ module.exports = [
         id: "HN1UjzRSdBk",
         title: "Desvendando o CSS Grid na prática | Mayk Brito",
         duration: "36 min",
-        price: "Free"
+        price: "Free",
+        featured: true,
     },
     {
         id: "rAzHvYnQ8DY",
@@ -21,7 +22,8 @@ module.exports = [
         id: "ghTrp1x_1As",
         title: "O que é API? REST e RESTful? | Mayk Brito",
         duration: "34 min",
-        price: "Free"
+        price: "Free",
+        featured: true,
     },
     {
         id: "GSqR2i-Pq6o",
@@ -33,6 +35,7 @@ module.exports = [
         id: "2alg7MQ6_sI",
         title: "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
         duration: "33 min",
-        price: "Free"
+        price: "Free",
+        featured: true,
     }
 ]
