@@ -14,7 +14,7 @@
         <section class="cards">
             {% for item in items %}
             <div class="card" id="{{item.id}}">
-                <div class="card_image-container">
+                <div class="card_image-container {{ 'featured-wrapper' if item.featured }}">
                     <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="Imagem de {{item.title}}">
                     {% if item.featured %}
                     <div class="featured">Featured</div>
