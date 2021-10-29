@@ -46,7 +46,7 @@ server.get("/video", function(req, res) {
         return res.send("Video not found!")
     }
 
-    return res.render("video", { video })
+    return res.render("video", {item: video })
 })
 
 server.use(function(req, res){
