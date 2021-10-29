@@ -99,6 +99,7 @@ header {
 .card {
     background-color: var(--color-cardpurple);
     display: grid;
+    cursor: pointer;
 }
 
 .card_image-container img{
